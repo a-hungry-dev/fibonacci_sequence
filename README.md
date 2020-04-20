@@ -42,13 +42,14 @@ app.listen(port, () => console.log("Example app listening at http://localhost:" 
 	- styles.css
 	- scripts.js
 	
-The porject directry should look like this:
+The project directory should look like this:
 ```
-project (the base of our repository)
+project/ (the base of our repository)
 │   README.md
 │   package.json 
 │   index.js
-└───public
+|
+└───public/
     │   index.html
     │   styles.css
     │   scripts.js
