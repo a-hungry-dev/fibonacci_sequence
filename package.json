@@ -1,0 +1,25 @@
+{
+  "name": "fibonacci_sequence",
+  "version": "1.0.0",
+  "description": "Fibonacci Sequence Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-hungry-dev/fibonacci_sequence.git"
+  },
+  "keywords": [
+    "fibonacci"
+  ],
+  "author": "Dandrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-hungry-dev/fibonacci_sequence/issues"
+  },
+  "homepage": "https://github.com/a-hungry-dev/fibonacci_sequence#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
