@@ -1,15 +1,15 @@
 ## **TODO:**
 
  1. Initialise an npm project in the base of the repository `npm init`.
-		- [https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
+ - [https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 
  2. Add the dependency Express to our newly created project `npm install express`.
-		- [http://expressjs.com/en/starter/installing.html](http://expressjs.com/en/starter/installing.html)
+ - [http://expressjs.com/en/starter/installing.html](http://expressjs.com/en/starter/installing.html)
 
 	  
  3. Crate our main js file (index.js) and set up Express to serve a static directory.
-		 - [http://expressjs.com/en/starter/hello-world.html](http://expressjs.com/en/starter/hello-world.html)
-		 - [http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express](http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express)
+ - [http://expressjs.com/en/starter/hello-world.html](http://expressjs.com/en/starter/hello-world.html)
+ - [http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express](http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express)
  
  `index.js`
 ```javascript
