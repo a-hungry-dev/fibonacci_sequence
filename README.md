@@ -1,10 +1,7 @@
 ## **TODO:**
-
-~~1. Initialise an npm project in the base of the repository `npm init`.~~ - [https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
-
-~~2. Add the dependency Express to our newly created project `npm install express`.~~ - [http://expressjs.com/en/starter/installing.html](http://expressjs.com/en/starter/installing.html)
-
-~~3. Crate our main js file (index.js) and set up Express to serve a static directory.~~ - [http://expressjs.com/en/starter/hello-world.html](http://expressjs.com/en/starter/hello-world.html) - [http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express](http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express)
+[x] 1. Initialise an npm project in the base of the repository `npm init` - [https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
+[x] 2. Add the dependency Express to our newly created project `npm install express` - [http://expressjs.com/en/starter/installing.html](http://expressjs.com/en/starter/installing.html)
+[x] 3. Crate our main js file (index.js) and set up Express to serve a static directory - [http://expressjs.com/en/starter/hello-world.html](http://expressjs.com/en/starter/hello-world.html) - [http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express](http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express)
 
 `index.js`
 
@@ -32,8 +29,7 @@ app.use(express.static('public'));
 // 3000 is fine for now
 app.listen(port, () => console.log('Example app listening at http://localhost:' + port));
 ```
-
-~~4. Go ahead and create the `/public` directory if you haven't done so already and add some files.~~ - index.html - styles.css - scripts.js
+[x] 4. Go ahead and create the `/public` directory if you haven't done so already and add some files[x] - index.html - styles.css - scripts.js
 The project directory should look like this:
 
 ```
@@ -47,5 +43,4 @@ project/ (the base of our repository)
     │   styles.css
     │   scripts.js
 ```
-
-~~5. You're ready to run your app! from the base of the repository run `node index.js`. You should now be able to view the webpage you created in the previous step!~~
+[x] 5. You're ready to run your app! from the base of the repository run `node index.js`. You should now be able to view the webpage you created in the previous step
