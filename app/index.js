@@ -7,18 +7,17 @@ app.use(express.static('public'));
 app.listen(port, () => console.log('Listening at http://localhost:' + port));
 
 app.get('/fibonacci', (req, res) => {
-   res.json([
-      {
-         id: 1,
-         body: 'Some Fibonacci goodness',
-      },
-      {
-         id: 2,
-         body: 'Some more Fibonacci goodness',
-      },
-      {
-         id: 3,
-         body: 'All of the Fibonacci goodness',
-      },
-   ]);
+   let number = +req.query.number //convert req.query.number from string to number
+
+   if(number <= 5 || number >= 100){
+      res.json({error: "please provide a number between 5 and 100"})
+      return
+   }
+  
+   let fibonacci = number
+   //calculate the fibonacci goodness
+   
+   res.json({result: fibonacci})
+
+
 });
