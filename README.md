@@ -84,5 +84,5 @@ app.get("/fibonacci", (req, res) => {
 // ...
 ```
 
-- [ ] 6. lets see if we can make use of our new route using the web page, i'll leave it up to you to work this one out!
+- [ ] 6. lets see if we can make use of our new route using the web page we are serving in the public directory, i'll leave it up to you to work this one out!
     - [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
